@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20150803Challenge226Adding fractions", "20150803Challenge226Adding fractions\20150803Challenge226Adding fractions.csproj", "{4397A950-D2BC-4444-8E09-E94DFE8CE1E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daily-Programmer", "20150803Challenge226Adding fractions\Daily-Programmer.csproj", "{4397A950-D2BC-4444-8E09-E94DFE8CE1E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
