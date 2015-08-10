@@ -10,17 +10,8 @@ namespace Dailys
     {
         static void Main(string[] args)
         {
-            UInt64 size = Convert.ToUInt64(Console.ReadLine());
-            /* When coord is true its case 1 and we return the coordinant of of the given number,
-             * else it is case 2 and return the number of the given coord. */
             UInt64 retx, rety;
-            /* 
-               1 = right
-               2 = up
-               3 = left
-               4 = down 
-             */
-
+            UInt64 size = Convert.ToUInt64(Console.ReadLine());
             while (size % 2 != 1)
             {
                 Console.WriteLine("Size of square must be odd, try again.");
@@ -88,7 +79,16 @@ namespace Dailys
             }
             else
             {
-                Console.WriteLine("({0}, {1})", rightx, bottomy - (trcorn - num));
+                UInt64 lowersqure = (highsquare - 2) * (highsquare - 2);
+                if (num == lowersqure + 1)
+                {
+                    Console.WriteLine("({0}, {1})", rightx, bottomy -1);
+                }
+                else
+                {
+                    Console.WriteLine("({0}, {1})", rightx, bottomy - (trcorn - num));
+                }
+                
             }
         }
     }
