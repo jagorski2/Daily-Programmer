@@ -7,7 +7,7 @@
     <ProjectGuid>{4397A950-D2BC-4444-8E09-E94DFE8CE1E8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_226_Easy</RootNamespace>
+    <RootNamespace>Dailys</RootNamespace>
     <AssemblyName>20150803Challenge226Adding fractions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
